@@ -30,5 +30,5 @@ cmake .. -G"$CMAKE_GENERATOR" \
 -DCMAKE_INSTALL_PREFIX=$PREFIX \
 -DBOOST_LIBRARYDIR=$PREFIX/lib
 
-make -j6
+make
 make install
