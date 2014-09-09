@@ -12,7 +12,11 @@ requirements:
     - cmake [win]
     - eigen
     - flann
-    - boost_python
+    - boost
+  run:
+    - eigen
+    - flann
+    - boost
   
 about:
   home: http://pointclouds.org/
